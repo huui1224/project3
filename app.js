@@ -3,7 +3,7 @@
 // =========================
 
 // ====== 0) 여기만 너 값으로 바꾸면 됨 ======
-const SHEETS_ENDPOINT = "https://script.google.com/macros/s/AKfycbwQj7dsXUPExLMN-0ErcHl3KstsszejEiRd9RJLB5EVH4VHBn4rCleOHBeHVOZjrYSC7Q/exec";
+const SHEETS_ENDPOINT = "https://script.google.com/macros/s/AKfycbzMquZyik2REh8R5MnhfsGtVvCVAatNUMk0dBMqvehMJX-J_RkdbaBAz-SJgMB7dgCrFA/exec";
 const SHEETS_TOKEN = "wkrlgysmdrka0215"; // Code.gs의 WRITE_TOKEN과 동일하게
 // =========================================
 
@@ -469,4 +469,5 @@ $btnNext.addEventListener("click", () => {
 $btnRestart.addEventListener("click", () => {
   showScreen("start");
 });
+
 
